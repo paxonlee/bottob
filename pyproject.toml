@@ -7,7 +7,9 @@ authors = [
     { name = "Paxon Lee", email = "paxonlee@startown.ai" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "discord-py>=2.7.1",
+]
 
 [project.scripts]
 bottob = "bottob:main"
