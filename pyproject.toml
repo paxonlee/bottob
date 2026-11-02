@@ -1,0 +1,17 @@
+[project]
+name = "bottob"
+version = "0.1.0"
+description = "Bot and bot, here to help!"
+readme = "README.md"
+authors = [
+    { name = "Paxon Lee", email = "paxonlee@startown.ai" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+bottob = "bottob:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
